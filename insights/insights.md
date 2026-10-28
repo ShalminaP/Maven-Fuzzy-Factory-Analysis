@@ -1,9 +1,5 @@
 # Maven Fuzzy Factory: Key Insights
 
-This summary is based on the presentation script supplied for the project. The figures below are reported in that script; they have not all been independently recalculated from the data or the Power BI model.
-
-## Findings
-
 1. **Traffic and orders grew, with holiday peaks.** From 2013 to 2014, sessions rose 107% and orders rose 126%. Orders peak in November and December; November and December 2014 had 1,985 and 2,314 orders, respectively.
 2. **Conversion improved over time.** The script reports session-to-order conversion increasing from 4.14% in 2012 to 6.60% in 2013 and 7.22% in 2014. March 2012 and March 2015 are partial months; 2015's reported 8.44% is through 19 March and should not be compared with a full year.
 3. **Channel performance depends on the measure.** Gsearch generated 316,035 sessions (66.8% of traffic), while organic search had the highest reported revenue per session ($4.53). Socialbook had low reported conversion (3.21%) and revenue per session ($2.08); the pilot campaign is separately reported at 1.08% conversion.
