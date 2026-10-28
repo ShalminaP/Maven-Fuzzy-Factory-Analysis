@@ -15,10 +15,10 @@
 | Name | Meaning / calculation | Notes |
 | --- | --- | --- |
 | `Channel` | Session traffic source group | The notebook sets it to `utm_source` when non-null; otherwise `organic_search` when `http_referer` is non-null; otherwise `direct`. |
-| Conversion rate | Orders divided by sessions | Dashboard reports 6.83% for the full stated period. Confirm whether the denominator and date filter use the same session cohort. |
-| Revenue per order | Revenue divided by orders | Exact revenue inclusion/exclusion rules need confirmation. |
-| Revenue per session | Revenue divided by sessions | Exact attribution and refund treatment need confirmation. |
-| Date | Calendar date used to filter activity | Presentation says a shared Date table filters sessions, orders, items, and refunds. Confirm the model relationships and date roles in the PBIX. |
+| Conversion rate | Orders divided by sessions | Dashboard reports 6.83% for the full stated period.|
+| Revenue per order | Revenue divided by orders | Exact revenue inclusion/exclusion rules. |
+| Revenue per session | Revenue divided by sessions | Exact attribution and refund treatment. |
+| Date | Calendar date used to filter activity | A shared Date table filters sessions, orders, items, and refunds.|
 
 ## Keys and relationships described :
 
