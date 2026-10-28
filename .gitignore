@@ -1,0 +1,38 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+credentials.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Temporary and local database files
+*.tmp
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Power BI temporary/autosave files (the reviewed .pbix is intentionally tracked)
+*.pbix.autosave
+*.pbit
+
+data/private/
+
+# Jupyter
+.ipynb_checkpoints/
