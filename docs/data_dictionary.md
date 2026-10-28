@@ -1,10 +1,5 @@
 # Data dictionary
-
-## Scope and status
-
-This dictionary is based on the supplied Python notebook, SQL schema/views, presentation script, and cleaned CSV headers. Cleaned CSV row counts and field names were inspected. The Power BI model and measures were not independently inspected, and nullability has not been comprehensively profiled.
-
-## Tables described in the presentation
+## Tables in the dataset described:
 
 | Table | Grain / purpose | Fields or relationships identified |
 | --- | --- | --- |
@@ -25,15 +20,15 @@ This dictionary is based on the supplied Python notebook, SQL schema/views, pres
 | Revenue per session | Revenue divided by sessions | Exact attribution and refund treatment need confirmation. |
 | Date | Calendar date used to filter activity | Presentation says a shared Date table filters sessions, orders, items, and refunds. Confirm the model relationships and date roles in the PBIX. |
 
-## Keys and relationships described
+## Keys and relationships described :
 
-- Sessions connect to orders through session ID; the presentation describes this as one-to-one.
+- Sessions connect to orders through session ID.
 - Orders connect to order items; one order can contain multiple items.
 - Products connect to order items.
 - Order items connect to refunds.
 - A shared Date table is described as connected to sessions, orders, items, and refunds.
 
-Exact Power BI filter direction and treatment of unmatched records remain to be documented from the PBIX model. The notebook explicitly checks orphans on pageviews-to-sessions, orders-to-sessions, items-to-orders, refunds-to-items, and items-to-products. The included cleaned files have 472,871 sessions, 1,188,124 pageviews, 32,313 orders, 40,025 order items, 1,731 refunds, and 4 products.
+The notebook explicitly checks orphans on pageviews-to-sessions, orders-to-sessions, items-to-orders, refunds-to-items, and items-to-products. The included cleaned files have 472,871 sessions, 1,188,124 pageviews, 32,313 orders, 40,025 order items, 1,731 refunds, and 4 products.
 
 ## Validation figures quoted in the presentation
 
@@ -43,7 +38,7 @@ Exact Power BI filter direction and treatment of unmatched records remain to be 
 - $1,938,509.75 revenue
 - 19 March 2012 through 19 March 2015
 
-These are expected/reference figures in the supplied SQL and presentation, not independently recalculated here.
+These are expected/reference figures.
 
 
 ## Included cleaned CSV files
