@@ -53,6 +53,3 @@ The date range is 19 March 2012 to 19 March 2015. The first and last months are 
 
 The cleaned CSV row counts are 472,871 sessions, 1,188,124 pageviews, 32,313 orders, 40,025 order items, 1,731 refunds, and 4 products. My reported headline figures include a 6.83% session-to-order conversion rate and $1,938,509.75 in revenue. I’ve documented the metric and data-quality caveats in `docs/` and `insights/`.
 
-## File size
-
-Some CSV files exceed GitHub’s 50 MiB warning threshold but are below its 100 MiB per-file limit. Push this project with GitHub Desktop or Git; the browser upload form has a lower per-file limit. See [GitHub’s large-file guidance](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github).
