@@ -1,8 +1,3 @@
--- =====================================================================
--- MAVEN FUZZY FACTORY | SIMPLE DATA CHECKS AFTER LOADING (no indexes needed)
--- Purpose: prove the data in SQL is complete and correct BEFORE doing analysis.
--- Select ONE query at a time and press Ctrl+Enter.
--- =====================================================================
 USE maven_fuzzy_factory;
 
 -- CHECK 1: ROW COUNTS - did every row load?
